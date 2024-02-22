@@ -1,0 +1,59 @@
+/* Основные стили */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+header, footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header ul.menu {
+    list-style: none;
+    padding: 0;
+}
+
+header ul.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+/* Секции */
+section {
+    margin-bottom: 20px;
+}
+
+/* Футер */
+footer {
+    font-size: 0.8em;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    header ul.menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+.form-group {
+    margin-bottom: 15px;
+}
